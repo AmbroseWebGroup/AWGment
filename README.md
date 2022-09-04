@@ -59,7 +59,7 @@ Fetch the email of everyone with "John" as a first name
 > index.php/users/email/?filters=first_name|LIKE|John
 
 ## Known Issues
-- None
+- None (yet)
 
 ## Changelog
 Will be updated when the first alpha version is released

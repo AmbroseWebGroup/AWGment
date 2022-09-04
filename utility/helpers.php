@@ -24,3 +24,7 @@ function kill_page($_message) {
   http_response_code(400);
   die(json_encode([$_message]));
 }
+
+function isAllDigits($_str) {
+  return preg_match('/^\d+$/', $_str);
+}
